@@ -55,7 +55,9 @@ SQLAlchemy ORM
    v
 MySQL
 
-Project Structure
+
+## Project Structure
+
 employee-management-api/
 │
 ├── app/
@@ -99,6 +101,7 @@ employee-management-api/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+
 API Endpoints
 
 Base URL:
@@ -165,6 +168,8 @@ uvicorn app.main:app --reload
 The API will be available at:
 
 http://127.0.0.1:8000
+
+
 API Documentation
 
 FastAPI automatically provides interactive Swagger documentation:
@@ -238,6 +243,11 @@ CI/CD with GitHub Actions
 Database migrations with Alembic
 Structured application logging
 API versioning
+
+
 Author
 
 Ramya Kulkarni
+
+
+
